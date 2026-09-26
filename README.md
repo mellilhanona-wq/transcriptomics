@@ -58,14 +58,16 @@ Project Structure
 -README.md
 
 ---
- How to run
-Open R or RStudio and run:
+ ## How to run
+
+Open R or RStudio, set your working directory to the project root folder, then run:
 
 ```r
-setwd("C:/Users/melli/Desktop/transcriptomicsweek1")
 source("scripts/01_analysis_pipeline.R")
----
-Outputs
+```
+
+## Outputs
+
 - Differential expression tables (CSV)
 - PCA plots
 - Heatmaps
